@@ -1,0 +1,24 @@
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables & API keys (important for Days 4-6!)
+.env
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Large raw datasets or local model weights (optional: keep data/ ignored if >50MB)
+# data/*.csv
